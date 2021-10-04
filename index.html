@@ -170,14 +170,29 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Some work</h2>
+                    <h2 class="section-heading text-uppercase">Some of my work</h2>
                     <h3 class="section-subheading text-muted">Some samples of my previous works :</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
+                        <!-- Portfolio item Life Attack-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModalLifeAttack">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/lifeAttack_menu.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">2 day Game Jam</div>
+                                <div class="portfolio-caption-subheading text-muted">by Area of Effect</div>
+                            </div>
+                        </div>
+                    </div>         
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -189,10 +204,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
+                    <!-- <div class="col-lg-6 col-sm-6 mb-4"> -->
+                        <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -203,7 +218,7 @@
                                 <div class="portfolio-caption-subheading text-muted">Unity, Leap Motion & HTC VIVE</div>
                             </div>
                         </div>
-                    </div>                    
+                    <!-- </div> -->                    
                 </div>
             </div>
         </section>        
@@ -238,8 +253,48 @@
             </div>
         </footer>        
         <!-- Portfolio Modals-->
+        <!-- Portfolio item Life attack-->
+        <div class="portfolio-modal modal fade" id="portfolioModalLifeAttack" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Game Jam submission : Life Attack</h2>
+                                    <p class="item-intro text-muted">Area Of Effect</p>
+                                        <img class="img-middle d-block mx-auto" src="assets/img/portfolio/lifeAttack_menu.png" alt="..." />
+                                        <p class="item-intro text-muted">Game Menu</p>  
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lt66bX7rkn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                        </iframe>   
+                                        <p class="item-intro text-muted">Here is a trailer of our game.</p>                 
+                                    <p>With a friend we took part in a 2 day game jam by Area of Effect. The goal is simple : create a video game from scratch ! The theme was "Signs of Life". We decided to go for a shooter where you collect letters in order to complete a little puzzle. Since it was made in only 2 days it is far from being perfect, but we have something that works !</p>
+                                    <div class="text-center">
+                                        <p class="item-intro text-muted">Do you want to try ?</p>
+                                        <a class="btn btn-dark btn-secondary fw-bold" href="https://axelgoris99.itch.io/life-attack" target="_blank">See the submission page</a>
+                                        <p margin-bottom: 3cm></p>
+                                    </div>
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Git project :</strong>
+                                            link
+                                        </li>
+                                    </ul> -->                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -273,7 +328,7 @@
             </div>
         </div>
         <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -301,7 +356,7 @@
             </div>
         </div>
         <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal999" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
