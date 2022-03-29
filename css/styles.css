@@ -7937,9 +7937,9 @@ textarea.form-control-lg {
 }
 
 .responsive {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
-  max-height: 50%;
+  max-height: 30%;
   object-fit: contain;
   padding: 1rem;
 }
@@ -11336,7 +11336,7 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 1rem;
   border-radius: 100%;
 }
 
